@@ -1,0 +1,77 @@
+.header{
+    background-color: #FF8800;
+    color: #CC0000;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.header_logo{
+width: 100px;
+object-fit: contain;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_link{
+    color: #CC0000;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.header_searchIcon{
+    color: #FF8800;
+    background-color: #CC0000;
+    padding: 5px;
+    height: 22 !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+ 
+
+
+}
+.header_navicon{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header_search{
+    display: flex;
+    flex:1;
+}
+.header_searchInput{
+   height: 12px;
+   padding: 10px;
+   color: #CC0000;
+   border: none;
+   width: 100%;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   font-weight: bold;
+}
+.topline{
+    font-size: 14px;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.bottomline{
+    font-size: 18px;
+    font-weight: 800;
+}
+.badgenum{
+    font-size: 18px;
+    font-weight: bolder;
+}

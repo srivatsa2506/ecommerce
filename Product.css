@@ -1,0 +1,20 @@
+.product{
+    margin: 10px;
+    z-index: 1px;
+    align-items: center;
+}
+
+.addtocart{
+background-color: #FF8800;
+color: #cc0000;
+border: none;
+margin: 5px;
+padding: 3px;
+}
+.customize{
+    color: #FF8800;
+    background-color: #cc0000;
+border: none;
+margin: 5px;
+padding: 3px;
+}

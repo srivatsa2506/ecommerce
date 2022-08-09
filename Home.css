@@ -1,0 +1,19 @@
+.home{
+    display: flex;
+    background-color: #cc0000;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_label{
+    color: #FF8800;
+    font-weight: bold;
+    font-family: 'Samarkan', sans-serif;
+    font-size: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
+
+}
